@@ -37,7 +37,7 @@ export default function ScrapbookGrid({ photos }: ScrapbookGridProps) {
           <span className="text-4xl">📸</span>
         </div>
         <h1 className="girly-title text-5xl mb-4 sparkle">
-          Dayzee's Photo Scrapbook 📸
+          Dayzee&apos;s Photo Scrapbook 📸
         </h1>
         <p className="girly-subtitle text-xl">
           Drag the photos around to rearrange them! ✨

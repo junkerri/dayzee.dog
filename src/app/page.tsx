@@ -42,7 +42,7 @@ export default function Home() {
             {dayzeeData.name}
           </h1>
           <p className="girly-subtitle text-2xl">
-            Austin's favorite producer pup ✨
+            Austin&apos;s favorite producer pup ✨
           </p>
           <div className="flex justify-center space-x-4 mt-4">
             <span className="text-2xl">🌸</span>
