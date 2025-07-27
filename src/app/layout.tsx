@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Dayzee's Profile",
     images: [
       {
-        url: "/photos/Signature Look.jpg",
+        url: "/photos/Signature%20Look.jpg",
         width: 1200,
         height: 630,
         alt: "Dayzee with her signature tongue-out pose",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Dayzee's Profile | Austin's Favorite Producer Pup",
     description:
       "Meet Dayzee, the adorable 9-year-old Shih-tzu producer pup from Austin, Texas!",
-    images: ["/photos/Signature Look.jpg"],
+    images: ["/photos/Signature%20Look.jpg"],
     creator: "@dayzee_dog",
   },
   alternates: {

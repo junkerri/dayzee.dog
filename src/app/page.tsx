@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
     images: [
       {
-        url: "/photos/Playful in Bed chilling.JPEG",
+        url: "/photos/Playful%20in%20Bed%20chilling.JPEG",
         width: 1200,
         height: 630,
         alt: "Dayzee chilling in bed",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dayzee | Austin's Favorite Producer Pup",
     description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
-    images: ["/photos/Playful in Bed chilling.JPEG"],
+    images: ["/photos/Playful%20in%20Bed%20chilling.JPEG"],
   },
 };
 
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="text-center">
                 <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                   <img
-                    src="/photos/Playful in Bed chilling.JPEG"
+                    src="/photos/Playful%20in%20Bed%20chilling.JPEG"
                     alt="Dayzee chilling in bed"
                     className="w-full h-full object-cover"
                   />

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       "Sign Dayzee's guestbook and leave a message for this adorable producer pup!",
     images: [
       {
-        url: "/photos/Signature Look.jpg",
+        url: "/photos/Signature%20Look.jpg",
         width: 1200,
         height: 630,
         alt: "Dayzee with her signature tongue-out pose",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dayzee's Guestbook | Leave a Message",
     description: "Sign Dayzee's guestbook and leave a message!",
-    images: ["/photos/Signature Look.jpg"],
+    images: ["/photos/Signature%20Look.jpg"],
   },
 };
 
