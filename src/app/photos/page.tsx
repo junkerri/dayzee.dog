@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       "Explore Dayzee's adventures through photos - from studio sessions to hiking trips!",
     images: [
       {
-        url: "/photos/Dayzee%20with%20MOO%20MOO.jpeg",
+        url: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Dayzee%20with%20MOO%20MOO.jpeg",
         width: 1200,
         height: 630,
         alt: "Dayzee with her favorite Moo Moo toy",
@@ -25,7 +25,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dayzee's Photo Gallery",
     description: "Explore Dayzee's adventures through photos!",
-    images: ["/photos/Dayzee%20with%20MOO%20MOO.jpeg"],
+    images: [
+      "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Dayzee%20with%20MOO%20MOO.jpeg",
+    ],
   },
 };
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       "Learn all about Dayzee's personality, likes, dislikes, and memorable moments!",
     images: [
       {
-        url: "/photos/Playful%20in%20Bed%20chilling.JPEG",
+        url: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Playful%20in%20Bed%20chilling.JPEG",
         width: 1200,
         height: 630,
         alt: "Dayzee chilling in bed",
@@ -28,7 +28,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Dayzee | Austin's Favorite Producer Pup",
     description: "Learn all about Dayzee's personality and adventures!",
-    images: ["/photos/Playful%20in%20Bed%20chilling.JPEG"],
+    images: [
+      "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Playful%20in%20Bed%20chilling.JPEG",
+    ],
   },
 };
 

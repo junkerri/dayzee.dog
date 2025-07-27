@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     description:
       "Meet Dayzee, the adorable 9-year-old Shih-tzu producer pup from Austin, Texas. Well-mannered with a permanent tongue-out pose!",
     type: "website",
-    url: "https://dayzee.dog",
+    url: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app",
     siteName: "Dayzee's Profile",
     images: [
       {
-        url: "/photos/Signature%20Look.jpg",
+        url: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Signature%20Look.jpg",
         width: 1200,
         height: 630,
         alt: "Dayzee with her signature tongue-out pose",
@@ -33,11 +33,13 @@ export const metadata: Metadata = {
     title: "Dayzee's Profile | Austin's Favorite Producer Pup",
     description:
       "Meet Dayzee, the adorable 9-year-old Shih-tzu producer pup from Austin, Texas!",
-    images: ["/photos/Signature%20Look.jpg"],
+    images: [
+      "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Signature%20Look.jpg",
+    ],
     creator: "@dayzee_dog",
   },
   alternates: {
-    canonical: "https://dayzee.dog",
+    canonical: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app",
   },
   category: "Pets",
   classification: "Pet Profile",

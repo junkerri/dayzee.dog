@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
     images: [
       {
-        url: "/photos/Playful%20in%20Bed%20chilling.JPEG",
+        url: "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Playful%20in%20Bed%20chilling.JPEG",
         width: 1200,
         height: 630,
         alt: "Dayzee chilling in bed",
@@ -23,7 +23,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dayzee | Austin's Favorite Producer Pup",
     description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
-    images: ["/photos/Playful%20in%20Bed%20chilling.JPEG"],
+    images: [
+      "https://dayzee-bbf7nsifs-junkerris-projects.vercel.app/photos/Playful%20in%20Bed%20chilling.JPEG",
+    ],
   },
 };
 
