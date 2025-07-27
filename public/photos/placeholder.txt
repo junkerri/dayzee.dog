@@ -1,0 +1,9 @@
+Place your Dayzee photos here!
+
+Suggested photos:
+- dayzee-1.jpg (cute portrait)
+- dayzee-2.jpg (with tennis ball)
+- dayzee-3.jpg (sleeping)
+- dayzee-4.jpg (in car)
+
+Update the photo data in src/data/dayzee.ts to match your actual photo filenames. 
