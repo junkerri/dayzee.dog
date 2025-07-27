@@ -137,7 +137,7 @@ MIT License - feel free to use this template for your own pet's profile!
 
 ## 🐾 About Dayzee
 
-Dayzee is a 4-year-old Mystery Mix who loves peanut butter, car rides, and sunbeams. She's a zoomies enthusiast, sock thief, and professional cuddle bug. This website is her digital shrine in the style of early 2000s web profiles.
+Dayzee is a shih-tzu who loves sun bathing, chickens, and her humans. She's a zoomies enthusiast and professional cuddle bug. This website is her digital shrine in the style of early 2000s web profiles.
 
 ---
 
