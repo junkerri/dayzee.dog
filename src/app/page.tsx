@@ -1,4 +1,31 @@
+import { Metadata } from "next";
 import { dayzeeData } from "@/data/dayzee";
+
+export const metadata: Metadata = {
+  title: "Dayzee | Austin's Favorite Producer Pup - Home",
+  description:
+    "Welcome to Dayzee's profile! Meet the adorable 9-year-old Shih-tzu producer pup from Austin, Texas. Discover her personality, likes, dislikes, and photo gallery.",
+  keywords:
+    "Dayzee, Austin dog, Shih-tzu, producer pup, pet profile, Austin Texas, cute dog, studio dog",
+  openGraph: {
+    title: "Dayzee | Austin's Favorite Producer Pup",
+    description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
+    images: [
+      {
+        url: "/photos/Playful in Bed chilling.JPEG",
+        width: 1200,
+        height: 630,
+        alt: "Dayzee chilling in bed",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dayzee | Austin's Favorite Producer Pup",
+    description: "Meet Dayzee, the adorable Shih-tzu producer pup from Austin!",
+    images: ["/photos/Playful in Bed chilling.JPEG"],
+  },
+};
 
 export default function Home() {
   return (
@@ -10,7 +37,7 @@ export default function Home() {
             {dayzeeData.name}
           </h1>
           <p className="text-xl text-gray-600">
-            Austin's favorite producer pup
+            Austin&apos;s favorite producer pup
           </p>
         </div>
 
@@ -48,7 +75,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-lg text-gray-700 italic leading-relaxed">
-                "{dayzeeData.bio}"
+                &ldquo;{dayzeeData.bio}&rdquo;
               </p>
             </div>
 
@@ -105,7 +132,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-6">
               <h3 className="text-xl font-bold text-red-500 mb-4 flex items-center">
                 <span className="mr-2">😤</span>
-                Things I Don't Like
+                Things I Don&apos;t Like
               </h3>
               <div className="space-y-2">
                 {dayzeeData.dislikes.map((dislike, index) => (

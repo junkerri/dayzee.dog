@@ -1,8 +1,36 @@
+import { Metadata } from "next";
 import { dayzeeData } from "@/data/dayzee";
 import AudioIntro from "@/components/AudioIntro";
 import LikesList from "@/components/LikesList";
 import DislikesList from "@/components/DislikesList";
 import LovesList from "@/components/LovesList";
+
+export const metadata: Metadata = {
+  title: "About Dayzee | Austin's Favorite Producer Pup - Full Profile",
+  description:
+    "Learn all about Dayzee, the 9-year-old Shih-tzu producer pup from Austin. Discover her likes, dislikes, loves, personality, and memorable moments. Hear her voice and explore her unique quirks!",
+  keywords:
+    "Dayzee profile, Shih-tzu personality, Austin dog, producer pup, Moo Moo toy, studio sessions, hiking, likes dislikes, pet bio",
+  openGraph: {
+    title: "About Dayzee | Austin's Favorite Producer Pup",
+    description:
+      "Learn all about Dayzee's personality, likes, dislikes, and memorable moments!",
+    images: [
+      {
+        url: "/photos/Playful in Bed chilling.JPEG",
+        width: 1200,
+        height: 630,
+        alt: "Dayzee chilling in bed",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Dayzee | Austin's Favorite Producer Pup",
+    description: "Learn all about Dayzee's personality and adventures!",
+    images: ["/photos/Playful in Bed chilling.JPEG"],
+  },
+};
 
 export default function About() {
   return (
@@ -142,7 +170,7 @@ export default function About() {
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl">😰</span>
-                <span>Doesn't like faces near her face</span>
+                <span>Doesn&apos;t like faces near her face</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-2xl">💨</span>
@@ -166,8 +194,8 @@ export default function About() {
                 🏆 Galveston Beach Hero
               </h3>
               <p className="text-gray-700">
-                Dayzee doesn't usually like water, but when her parents were in
-                the ocean at Galveston beach, she bravely ran to them,
+                Dayzee doesn&apos;t usually like water, but when her parents
+                were in the ocean at Galveston beach, she bravely ran to them,
                 conquering her fears! A true hero moment! 🌊
               </p>
             </div>
@@ -178,8 +206,8 @@ export default function About() {
               </h3>
               <p className="text-gray-700">
                 As a producer at Rief Productions, Dayzee loves hanging in the
-                studio while others play music. She's sensitive to loud noises
-                but loves the instruments! 🎼
+                studio while others play music. She&apos;s sensitive to loud
+                noises but loves the instruments! 🎼
               </p>
             </div>
 
@@ -189,8 +217,8 @@ export default function About() {
               </h3>
               <p className="text-gray-700">
                 Every day after her 6 PM dinner, Dayzee plays with her favorite
-                Moo Moo toy and then cleans her face. It's her special evening
-                ritual! 🧸
+                Moo Moo toy and then cleans her face. It&apos;s her special
+                evening ritual! 🧸
               </p>
             </div>
           </div>
